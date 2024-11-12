@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="madlib1Button" type="id" />
+    <item name="madlib2Button" type="id" />
+    <item name="madlib3Button" type="id" />
+    <item name="randomMadlibButton" type="id" />
+</resources>

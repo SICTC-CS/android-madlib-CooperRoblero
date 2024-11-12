@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MadLib</string>
+    <string name="generate_mad_lib">Generate Mad Lib</string>
+    <string name="enter_a_noun">Enter a noun</string>
+</resources>

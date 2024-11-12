@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/madlib1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mad Lib 1" />
+
+    <Button
+        android:id="@+id/madlib2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mad Lib 2" />
+
+    <Button
+        android:id="@+id/madlib3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mad Lib 3" />
+
+    <Button
+        android:id="@+id/randomMadlibButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Mad Lib" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                                    Choose a MadLib!" />
+
+</LinearLayout>

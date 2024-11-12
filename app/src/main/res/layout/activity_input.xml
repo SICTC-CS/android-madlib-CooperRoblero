@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Each EditText field with defined width and height, with meaningful hints for clarity -->
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a noun"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a verb"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter an adjective"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a place"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter an animal"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a plural noun"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter a color"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter an exclamation"
+            android:minHeight="48dp" />
+
+        <!-- Generate Button -->
+        <Button
+            android:id="@+id/generateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Mad Lib"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>
